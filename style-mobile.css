@@ -1,0 +1,126 @@
+
+
+/*SECTION 1*/
+
+#building-image, img {
+    width: 100%;
+    height: 30%;
+}
+
+
+.building {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#text-title {
+    font-size: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#text {
+    width: 90%;
+    margin-left: 20px;
+    max-width: 50ch;
+    text-align: justify;
+}
+
+
+/*SECTION 4*/
+
+.text-slider {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 100%;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.paragraph p {
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 50ch;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+/*SECTION 6*/
+
+.text-map h1 {
+    margin-left: 30px;
+}
+
+
+.text-map p {
+    width: 80%;
+    max-width: 50ch;
+    text-align: justify;
+}
+
+
+/*SECTION 7*/
+
+section#video-slider {
+    display: none;
+}
+
+
+/*SECTION 8*/
+.biography {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.bio-text h1 {
+    margin-left: 30px;
+}
+
+.bio-text p {
+    text-align: justify;
+    max-width: 50ch;
+}
+
+.bio-image {
+    justify-content: center;
+    margin-left: 20px;
+}
+
+
+/*SECTION 9*/
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.form-control {
+    max-width: 350px;
+}
+
+#btn {
+    max-width: 350px;
+}
+
+/*FOOTER*/
+
+footer div.footer-info {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+
+

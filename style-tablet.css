@@ -1,0 +1,33 @@
+/*SECTION 1*/
+
+#building-image, img {
+    width: 70%;
+    height: 50%
+}
+
+#text {
+    width: 90%;
+    margin-left: 20px;
+}
+
+
+/*SECTION 4*/
+
+.title h1 {
+    position: absolute;
+    left: 100px;
+}
+
+
+
+/*SECTION 8*/
+
+.bio-text p {
+    margin-right: 30px;
+}
+
+.bio-image {
+    width: 50%;
+}
+
+

@@ -1,0 +1,263 @@
+header{
+    background-image: url(images/daniel-chen-cNaEqXSsZ0k-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*NAVBAR*/
+
+.container {
+    padding: 50px 0;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo-header div{
+    background-color: rgb(44, 50, 105);
+    width: 150px;
+    height: 60px;
+    border-radius: 300px;
+}
+
+.logo p {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+/*SECTION 1*/
+
+.building {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#building-image, img {
+    width: 450px;
+    height: 550px;
+}
+
+#text-title {
+    font-size: 20px;
+    text-indent: 0;
+    margin-bottom: 30px;
+}
+
+#text {
+    width: 50%;
+    margin-left: 20px;
+
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left; 
+}
+
+
+/*SECTION 2*/
+.city-image img {
+    width: 100%;
+    background-size: cover;
+    margin: 50px 0;
+}
+
+
+/*SECTION 3*/
+
+section#slider {
+    margin-top: 40px;
+}
+
+
+/*SECTION 4*/
+
+.text-slider {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.title h1 {
+    position: absolute;
+    left: 350px;
+
+    font-size: 20px;
+    color: black;
+    text-align: right;
+}
+
+.paragraph p {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    max-width: 60ch;
+    text-align: left;
+    margin-right: 50px;;
+}
+
+
+/*SECTION 6*/
+section#text-map {
+    height: 100vh;
+    background-color: burlywood;
+}
+
+
+.text-map h1 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.text-map p {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 40ch;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+/*SECTION 7*/
+
+section#video-slider {
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+}
+
+#video-slider {
+    width: 60%;
+    position: absolute;
+    left: 260px;
+}
+
+
+/*SECTION 8*/
+
+.biography {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+
+    margin-top: 40px;
+}
+
+.bio-text h1 {
+    color: black;
+    font-size: 20px;
+}
+
+.bio-text p {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 50ch;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.bio-image {
+    width: 30%;
+}
+
+
+/*SECTION 9*/
+
+section#form {
+    background-color: burlywood;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    margin-top: 40px;
+}
+
+.input-form {
+    margin-left: 100px;
+}
+
+.logo-form {
+    background-color: rgb(44, 50, 105);
+    width: 200px;
+    height: 70px;
+    border-radius: 300px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.logo-form p {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer-logo {
+    background-color: rgb(44, 50, 105);
+    width: 100px;
+    height: 40px;
+    border-radius: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-logo p {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer div.footer-info {
+    width: 40%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer div.footer-info p {
+    font-size: 15px;
+    font-weight: 600;
+    color: burlywood;
+}
+
+
